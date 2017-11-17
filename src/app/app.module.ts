@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { TitlecasingComponent } from './titlecasing/titlecasing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthorsComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    TitlecasingComponent
   ],
   imports: [
     BrowserModule

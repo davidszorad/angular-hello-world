@@ -1,0 +1,4 @@
+<div>
+  <input type="text" #inputText (keyup)="onKeyUp(inputText.value)" /> <!-- inputText.value == $event.target.value -->
+  <p>{{ titleCasedText }}</p>
+</div>
