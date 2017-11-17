@@ -1,4 +1,4 @@
 <div>
-  <input type="text" #inputText (keyup)="onKeyUp(inputText.value)" /> <!-- inputText.value == $event.target.value -->
-  <p>{{ titleCasedText }}</p>
+  <input type="text" [(ngModel)]="inputText" />
+  <p>{{ inputText | titleCase }}</p>
 </div>
