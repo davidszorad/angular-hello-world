@@ -13,4 +13,12 @@ export class AppComponent {
     isLiked: false,
     likesCount: 10
   }
+
+  zippy1 = {
+    title: "Title 1"
+  }
+
+  zippy2 = {
+    title: "Title 2"
+  }
 }

@@ -4,7 +4,7 @@
 <authors></authors>
 <app-favorite></app-favorite>
 <app-titlecasing></app-titlecasing>
-<app-likes [likesCount]="tweet.likesCount" [isActive]="tweet.isActive"></app-likes>
+<app-likes [likesCount]="10" [isActive]="tweet.isActive"></app-likes>
 
 <zippy title="Shipping Details">
   Shipping Details Content
@@ -12,3 +12,10 @@
 <zippy title="Billing Details">
   Billing Details Content
 </zippy>
+
+<zippy [title]="zippy1.title">
+    Shipping Details Content
+  </zippy>
+  <zippy [title]="zippy2.title">
+    Billing Details Content
+  </zippy>
