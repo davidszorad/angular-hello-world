@@ -9,6 +9,7 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { TitlecasingComponent } from './titlecasing/titlecasing.component';
 import { TitleCasePipe } from './title-case.pipe';
 import { LikesComponent } from './likes/likes.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LikesComponent } from './likes/likes.component';
     FavoriteComponent,
     TitlecasingComponent,
     TitleCasePipe,
-    LikesComponent
+    LikesComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
