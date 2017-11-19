@@ -10,6 +10,7 @@ import { TitlecasingComponent } from './titlecasing/titlecasing.component';
 import { TitleCasePipe } from './title-case.pipe';
 import { LikesComponent } from './likes/likes.component';
 import { ZippyComponent } from './zippy/zippy.component';
+import { UdemyCourseComponent } from './udemy-course/udemy-course.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ZippyComponent } from './zippy/zippy.component';
     TitlecasingComponent,
     TitleCasePipe,
     LikesComponent,
-    ZippyComponent
+    ZippyComponent,
+    UdemyCourseComponent
   ],
   imports: [
     BrowserModule,
